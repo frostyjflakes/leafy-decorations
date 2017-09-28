@@ -31,15 +31,22 @@ html {
 .nav a:hover {
   background-color: #fff;
   background-image: url("../images/leaf-icon.svg");
+  color: #145b1d;
+  background-position: center;
+  background-size: cover;
 }
 
 .banner {
-  background-image: url("../images/banner.jpg");
+  background-image: linear-gradient(to bottom, rgba(16, 52, 41, 0), rgba(16, 52, 41, .8)), url("../images/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
 }
 
 .banner-content {
   background-image: url("../images/two-leaves.svg");
   background-repeat: no-repeat;
+  background-position: top;
 }
 
 @media only screen and (min-width: 60em) {
